@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="M5EDTO" name="SimSim" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.NewProject" includeBinaryInAppConfig="1"
+              jucerVersion="5.0.1">
+  <MAINGROUP id="J6EoHN" name="SimSim">
+    <GROUP id="{A3644AEE-EEB1-D282-FC86-06D8A031AC26}" name="Source">
+      <GROUP id="{86BFA3A0-D5DE-7805-BE13-DF2F440C5474}" name="Data">
+        <FILE id="L1FV94" name="PointData.cpp" compile="1" resource="0" file="Source/PointData.cpp"/>
+        <FILE id="hlOkHm" name="PointData.h" compile="0" resource="0" file="Source/PointData.h"/>
+      </GROUP>
+      <GROUP id="{EB3E3025-700D-0C1F-36EB-A0DE0DA8C73F}" name="SimulationEditor">
+        <FILE id="jdv8cC" name="InputSimulationView.cpp" compile="1" resource="0"
+              file="Source/InputSimulationView.cpp"/>
+        <FILE id="sc6eju" name="InputSimulationView.h" compile="0" resource="0"
+              file="Source/InputSimulationView.h"/>
+      </GROUP>
+      <GROUP id="{5F7EE60B-80EC-1B97-039D-2BFB3B8868D4}" name="Outputs">
+        <FILE id="oM1yOe" name="Output.cpp" compile="1" resource="0" file="Source/Output.cpp"/>
+        <FILE id="vpodgH" name="Output.h" compile="0" resource="0" file="Source/Output.h"/>
+        <FILE id="Qx4AwK" name="OutputManager.cpp" compile="1" resource="0"
+              file="Source/OutputManager.cpp"/>
+        <FILE id="GXNapB" name="OutputManager.h" compile="0" resource="0" file="Source/OutputManager.h"/>
+        <GROUP id="{1500C7D5-9F7D-DF3D-231D-B91B2B619C0C}" name="ui">
+          <FILE id="aQcWZ8" name="OutputManagerUI.cpp" compile="1" resource="0"
+                file="Source/OutputManagerUI.cpp"/>
+          <FILE id="TzKgDi" name="OutputManagerUI.h" compile="0" resource="0"
+                file="Source/OutputManagerUI.h"/>
+          <FILE id="LuV6EG" name="OutputUI.cpp" compile="1" resource="0" file="Source/OutputUI.cpp"/>
+          <FILE id="RhHtxE" name="OutputUI.h" compile="0" resource="0" file="Source/OutputUI.h"/>
+        </GROUP>
+        <GROUP id="{1A983F5E-D0E5-F3DD-2ABC-96908942E6D5}" name="OSC">
+          <FILE id="OLvdcA" name="OSCOutput.cpp" compile="1" resource="0" file="Source/OSCOutput.cpp"/>
+          <FILE id="LtrtXY" name="OSCOutput.h" compile="0" resource="0" file="Source/OSCOutput.h"/>
+        </GROUP>
+        <GROUP id="{9C279A5A-AE9A-5D8D-78DB-323D755586F1}" name="Augmenta">
+          <FILE id="nNjyYU" name="AugmentaOutput.cpp" compile="1" resource="0"
+                file="Source/AugmentaOutput.cpp"/>
+          <FILE id="AC3OOe" name="AugmentaOutput.h" compile="0" resource="0"
+                file="Source/AugmentaOutput.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{3728CF5F-5590-AA5F-848F-1753C1B4F453}" name="Inputs">
+        <GROUP id="{E22C223D-26CA-30F0-20A8-E5562FA3E2DF}" name="ui">
+          <FILE id="gB8Tt9" name="InputManagerUI.cpp" compile="1" resource="0"
+                file="Source/InputManagerUI.cpp"/>
+          <FILE id="y55SZV" name="InputManagerUI.h" compile="0" resource="0"
+                file="Source/InputManagerUI.h"/>
+          <FILE id="OAkeVY" name="InputUI.cpp" compile="1" resource="0" file="Source/InputUI.cpp"/>
+          <FILE id="ko6dtD" name="InputUI.h" compile="0" resource="0" file="Source/InputUI.h"/>
+        </GROUP>
+        <FILE id="Kw58EX" name="Input.cpp" compile="1" resource="0" file="Source/Input.cpp"/>
+        <FILE id="STwuGQ" name="Input.h" compile="0" resource="0" file="Source/Input.h"/>
+        <FILE id="v6LQgj" name="InputManager.cpp" compile="1" resource="0"
+              file="Source/InputManager.cpp"/>
+        <FILE id="n4nXCE" name="InputManager.h" compile="0" resource="0" file="Source/InputManager.h"/>
+        <GROUP id="{7ADBB75F-6606-ADF2-262B-F4221F647064}" name="Auto">
+          <FILE id="t3BxMi" name="AutoInput.cpp" compile="1" resource="0" file="Source/AutoInput.cpp"/>
+          <FILE id="XEduc2" name="AutoInput.h" compile="0" resource="0" file="Source/AutoInput.h"/>
+        </GROUP>
+        <GROUP id="{3FCADEAE-9E08-34CC-EEA5-18A7E3586290}" name="OSC">
+          <FILE id="KWLeBm" name="OSCInput.cpp" compile="1" resource="0" file="Source/OSCInput.cpp"/>
+          <FILE id="FqaBZ1" name="OSCInput.h" compile="0" resource="0" file="Source/OSCInput.h"/>
+        </GROUP>
+        <GROUP id="{367E405F-49D6-867B-F16F-EABC725A804C}" name="Tablet">
+          <FILE id="eDTsAd" name="TabletInput.cpp" compile="1" resource="0" file="Source/TabletInput.cpp"/>
+          <FILE id="kvk0CP" name="TabletInput.h" compile="0" resource="0" file="Source/TabletInput.h"/>
+        </GROUP>
+        <GROUP id="{A3748A16-8669-02D7-7B28-78CDAECF12C0}" name="Mouse">
+          <FILE id="yLMdn1" name="MouseInput.cpp" compile="1" resource="0" file="Source/MouseInput.cpp"/>
+          <FILE id="hUO4Re" name="MouseInput.h" compile="0" resource="0" file="Source/MouseInput.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="L0GntB" name="SimSimEngine.cpp" compile="1" resource="0"
+            file="Source/SimSimEngine.cpp"/>
+      <FILE id="tBIs5y" name="SimSimEngine.h" compile="0" resource="0" file="Source/SimSimEngine.h"/>
+      <FILE id="FVKcvj" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="zp8cG2" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="maBH6v" name="MainComponentCommands.cpp" compile="1" resource="0"
+            file="Source/MainComponentCommands.cpp"/>
+      <FILE id="P21V91" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="NewProject"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="NewProject"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_organicui" path="../../../../../Perso/Projects/JUCE Modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_organicui" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
